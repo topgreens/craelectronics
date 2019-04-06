@@ -7,7 +7,10 @@
     <title>CRAelectronics - contact</title>
     <link rel="shortcut icon" href="images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="main/bootstrap.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+    <link rel="stylesheet" href="layout/styles/form.css" type="text/css" />
+    <link rel="stylesheet" href="layout/styles/navi.css" type="text/css" />
 </head>
 
 <body id="top">
@@ -15,54 +18,78 @@
     <div class="wrapper col1">
         <div id="header">
             <div id="logo">
-                <a href="">CRAelectronics</a>
-                <p>The Things That you love</p>
+                <a href="">CRA-Electronics</a>
+                <p>The Things You Love! Best Prices among's others</p>
             </div>
             <div id="topnav">
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="pages/products.html">Products</a></li>
-                    <li><a href="pages/team.html">Our Team</a></li>
-                    <li class="last"><a href="pages/contact.html">Contact Us</a></li>
+                    <li class="active"><a href="../index.html">Home</a></li>
+                    <li><a href="./products.html">Products</a></li>
+                    <li><a href="./team.html">Our Team</a></li>
+                    <li class="last"><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
             <br class="clear" />
         </div>
     </div>
     <!-- #######################...END OF HEADER AND NAVBAR...##################################################### -->
-<div id="wrapper">
-   <div id ="img001"> <img src="" alt=""></div>
 
-    
-    
-    <h2>Leave A Comment</h2>
-    <div id="respond">
-        <form action="#" method="post">
-            <p>
-                <input type="text" name="name" id="name" value="" size="22" />
-                <label for="name"><small>Name (required)</small></label>
-            </p>
-            <p>
-                <input type="text" name="email" id="email" value="" size="22" />
-                <label for="email"><small>Mail (required)</small></label>
-            </p>
-            <p>
-                <textarea name="comment" id="comment" cols="100%" rows="10"></textarea>
-                <label for="comment" style="display:none;"><small>Comment (required)</small></label>
-            </p>
-            <p>
-                <input name="submit" type="submit" id="submit" value="Submit Form" />
-                &nbsp;
-                <input name="reset" type="reset" id="reset" tabindex="5" value="Reset Form" />
-            </p>
-        </form>
+    <div class="row mb-3">
+      <div class="col-md-4 themed-grid-col">The Thngs You Loves !!! </div>
+      <div class="col-md-8 themed-grid-col">
+            <img src="" alt="">
+      </div>
     </div>
 
-</div>
 
- <div class="radio">
-     
- </div>
+
+
+    <div class="wrapper col2">
+        <div id="container">
+
+            <h2>Leave A Comment</h2>
+            <p>If you have any questions, comments or concerns about our products please let us know</p>
+            <div id="respond">
+                <form action="#" method="post">
+                    <p>
+                        <input type="text" name="name" id="name" value="" size="22" />
+                        <label for="name"><small>Name (required)</small></label>
+                    </p>
+                    <p>
+                        <input type="text" name="email" id="email" value="" size="22" />
+                        <label for="email"><small>Mail (required)</small></label>
+                    </p>
+                    <p>
+                        <textarea name="comment" id="comment" cols="100%" rows="10"></textarea>
+                        <label for="comment" style="display:none;"><small>Comment (required)</small></label>
+                    </p>
+                    <p>
+                        <input name="submit" type="submit" id="submit" value="Submit Form" />
+                        &nbsp;
+                        <input name="reset" type="reset" id="reset" tabindex="5" value="Reset Form" />
+                    </p>
+                </form>
+            </div>
+
+            <label for="cra-items">CRA-Products:</label>
+            <div>
+                <input type="radio" name="electronics" id="electronics-xphone" value="xphone">
+                <label for="electronics-xphone">XPhone</label>
+
+                <input type="radio" name="electronics" id="electronics-laptop" value="laptop">
+                <label for="electronics-laptop">Laptops</label>
+
+                <input type="radio" name="electronics" id="electronics-headsets" value="items">
+                <label for="electronics-headsets">Headsets</label>
+
+                <input id="electronics-n-a" name="electronics" type="radio" value="n-a">
+                <label for="electronics-n-a">N/A</label>
+            </div>
+            
+        </div>
+
+
+    </div>
 
     <!-- ###############################...FOOTER BEGINS........###################################### -->
     <div class="wrapper col4">
@@ -87,8 +114,8 @@
             </div>
             <div class="box flickrbox">
                 <h2>Follow Us !</h2>
-                
-              </div>
+
+            </div>
             <br class="clear" />
         </div>
     </div>
