@@ -1,0 +1,36 @@
+
+#top_image{
+    height: 80vh;
+    width: 100vw;
+}
+
+.first_image{
+    height: 100%;
+    width: 100%;
+}
+.our_prod{
+    text-align: center;
+}
+
+.card_image{
+    height:30px;
+    width: 20px;
+}
+.card_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 30%;
+    height: 100%;
+}
+.product_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainproduct{
+    display: flex;
+    flex-direction: column;
+}
