@@ -6,27 +6,42 @@
 
 html {
     box-sizing: border-box;
-}
-
-
-@media only screen and (max-width:900px) {
-    .container {
-        flex-direction: column;
-    }
+    overflow-y: scroll;
 }
 
 body {
     background-color: #cccc00;
-
     font-size: 13px;
     font-family: verdana, Arial, Helvetica, sans-serif;
-
-
+    margin: 0;
+    padding: 0;
 }
+
+
+.justify {
+    text-align: justify;
+}
+
+.clear {
+    clear: both;
+}
+
+br.clear {
+    clear: both;
+    margin-top: -15px;
+}
+
+a {
+    color: #cccc00;
+    background-color: #FFFFFF;
+    outline: none;
+    text-decoration: none;
+}
+
+/* --------------------------------------------     head     ----------------------------------------------------- */
 
 #header,
 #topbar,
-#homepage,
 #container,
 #footer,
 #copyright {
@@ -55,23 +70,37 @@ body {
     line-height: normal;
 }
 
-#header #logo h1 {
-    font-size: 36px;
-    text-transform: uppercase;
-}
+
 
 #header h1 a {
     color: #cccc00;
     background-color: #000000;
 }
 
-.logo-image{
+.logo-image {
     width: 50px;
-    
-
+    justify-content: end;
 }
 
-/* --------------------------------------------team-------------------------------------------------------- */
+#tips {
+    padding: 20px 0;
+}
+
+#tips ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#tips ul li {
+    display: inline;
+}
+
+#tips ul li.current a {
+    text-decoration: underline;
+}
+
+/* --------------------------------------------wrapper------------------------------------------------------- */
 
 
 div.wrapper {
@@ -85,13 +114,18 @@ div.wrapper h1,
 div.wrapper h2,
 div.wrapper h3,
 div.wrapper h4,
-div.wrapper h5{
+div.wrapper h5 {
     margin: 0;
     padding: 0;
     font-size: 20px;
     font-weight: normal;
     line-height: normal;
     font-family: Georgia, "Times New Roman", Times, serif;
+}
+.wrapper col3 {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 .col1 {
@@ -103,32 +137,26 @@ div.wrapper h5{
 .col2 a {
     color: #FFFFFF;
     background-color: #cccc00;
-    
-}
-.wrapper col2 {
-  width: 100%;
-  margin-top: 10px;
-  padding: 10px;
-  
 
 }
-.crumb{
+
+.crumbs {
     width: 95%;
     margin-top: 10px;
-    padding: 10px; 
+    padding: 10px;
     height: 200px;
     margin-left: 20px;
-    
+
 }
 
 .col3 {
     color: #777777;
     background-color: #FFFFFF;
-    
+
 }
 
 .col3 a {
-    color: #95AD19;
+    color: #cccc00;
     background-color: #FFFFFF;
 }
 
@@ -138,18 +166,18 @@ div.wrapper h5{
 }
 
 .col4 a {
-    color: #cccc00;
+    color:#cccc00;
     background-color: #000000;
 }
 
 .col5,
 .col5 a {
     color: #333333;
-    background-color: #000000;
+    background-color:#cccc00;
 }
 
 
-/* --------------------------------------------footer section----------------------- */
+/* --------------------------------------------footer section----------------------------------------------------- */
 
 #footer {
     padding: 20px 0;
@@ -220,6 +248,14 @@ div.wrapper h5{
     margin-right: 0;
 }
 
+.left{
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 /* ----------------------------------------------Copyright------------------------------------- */
 
 #copyright {
@@ -229,4 +265,22 @@ div.wrapper h5{
 #copyright p {
     margin: 0;
     padding: 0;
+}
+
+@media only screen and (max-width: 900px){
+    .wrapper {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+    .container {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .wrapper {
+        width: 100%;
+   
+    }
 }
