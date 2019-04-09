@@ -9,15 +9,21 @@
 
 }
 
-div.img {
+.container-team {
+width: 100%;
+margin: 0 auto; 
+
+}
+
+.img {
     border: 1px solid #ccc;
 }
 
-div.img:hover {
+.img:hover {
     border: 1px solid #777;
 }
 
-div.img img {
+.img img {
     width: 100%;
     height: auto;
 }
