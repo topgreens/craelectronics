@@ -122,6 +122,7 @@ div.wrapper h5 {
     line-height: normal;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 .wrapper col3 {
     width: 100%;
     margin-top: 10px;
@@ -129,7 +130,7 @@ div.wrapper h5 {
 }
 
 .col1 {
-    color: rgb(8, 8, 8);
+    color: rgb(171, 146, 7);
     background-color: #000000;
 }
 
@@ -166,14 +167,14 @@ div.wrapper h5 {
 }
 
 .col4 a {
-    color:#cccc00;
+    color: #cccc00;
     background-color: #000000;
 }
 
 .col5,
 .col5 a {
     color: #333333;
-    background-color:#cccc00;
+    background-color: #cccc00;
 }
 
 
@@ -210,7 +211,7 @@ div.wrapper h5 {
     display: block;
     float: left;
     width: 400px;
-    line-height: 1.6em;
+    
 }
 
 #footer .box1 .imgl {
@@ -219,6 +220,11 @@ div.wrapper h5 {
     color: #FFFFFF;
     background-color: #000000;
     width: 80px;
+}
+.fl_left, .imgl {
+    float: left;
+    margin: 0 8px 8px 0;
+    clear: left;
 }
 
 #footer .contactdetails li {
@@ -248,7 +254,7 @@ div.wrapper h5 {
     margin-right: 0;
 }
 
-.left{
+.left {
     float: left;
 }
 
@@ -267,20 +273,22 @@ div.wrapper h5 {
     padding: 0;
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 900px) {
     .wrapper {
         width: 49.99999%;
         margin: 6px 0;
     }
+
     .container {
         width: 49.99999%;
         margin: 6px 0;
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
     .wrapper {
         width: 100%;
-   
+
     }
 }
+
