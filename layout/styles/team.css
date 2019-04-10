@@ -10,9 +10,16 @@
 }
 
 .container-team {
-width: 100%;
-margin: 0 auto; 
+max-width: 1400px;
+display: flex;
+justify-content: center;
+align-items: stretch;
 
+}
+.call-out{
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1;
 }
 
 .img {
