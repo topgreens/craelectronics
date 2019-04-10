@@ -1,3 +1,10 @@
+.first_title {
+	font-size: 3em;
+	text-decoration: underline;
+	text-align: center;
+	padding: 4;
+}
+
 .homepage_products {
 	display: flex;
 	flex-wrap: wrap;
