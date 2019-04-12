@@ -4,9 +4,7 @@
     width: 95%;
     margin-top: 10px;
     padding: 10px;
-   
     margin-left: 20px;
-
 }
 
 .container-team {
@@ -27,21 +25,21 @@ align-items: stretch;
 }
 
 .img:hover {
-    border: 1px solid #777;
+    border: 2px solid #777;
 }
 
 .img img {
     width: 100%;
     height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-div.desc {
+.desc {
     padding: 15px;
+    border:1px solid #cccc00;
+    
+    border-radius: 8px;
     text-align: center;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .call-out{
