@@ -1,7 +1,10 @@
 @charset "utf-8";
 
 body {
+	
+	width: 100%;
 	background-color: #cccc00;
+	
 }
 
 #topnav {
