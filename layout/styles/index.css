@@ -26,3 +26,11 @@ padding-bottom: 20px;
 	width: 33.3%;
 	list-style: none;
 }
+
+@media (max-width: 600px) {
+	.homepage_products {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+}
