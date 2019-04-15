@@ -7,12 +7,20 @@ html {
     overflow-y: scroll;
 }
 
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
 body {
+    width: 100%;
     background-color: #cccc00;
-    font-size: 13px;
-    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
 
 .clear {
@@ -28,7 +36,6 @@ a {
 
 /* --------------------------------------------     head     ----------------------------------------------------- */
 
-
 #topbar,
 #container,
 #footer,
@@ -37,6 +44,12 @@ a {
     position: relative;
     width: 960px;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px){
+    #container{
+       flex-direction: column;
+    }
 }
 
 #header #logo {
@@ -90,11 +103,7 @@ a {
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.wrapper col3 {
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px;
-}
+
 
 .col1 {
     color: rgb(171, 146, 7);
