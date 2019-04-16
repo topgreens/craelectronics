@@ -95,14 +95,14 @@ a {
 
 
 
-.col1 {
+.nav {
     color: rgb(171, 146, 7);
     background-color: #000000;
 }
 
-.col2,
-.col2 a {
-    color: #FFFFFF;
+.tips,
+.tips a {
+    color: #390202;
     background-color: #cccc00;
 
 }
@@ -116,29 +116,29 @@ a {
 
 }
 
-.col3 {
+.comments {
     color: #777777;
     background-color: #FFFFFF;
 
 }
 
-.col3 a {
+.comments a {
     color: #cccc00;
     background-color: #FFFFFF;
 }
 
-.col4 {
+.footers {
     color: #cccc00;
     background-color: #000000;
 }
 
-.col4 a {
+.footers a {
     color: #cccc00;
     background-color: #000000;
 }
 
-.col5,
-.col5 a {
+.copy,
+.copy a {
     color: #333333;
     background-color: #cccc00;
 }
