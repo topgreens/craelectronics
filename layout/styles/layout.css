@@ -35,6 +35,10 @@ a {
 }
 
 /* --------------------------------------------     head     ----------------------------------------------------- */
+.main-wrapper{
+   
+}
+
 
 #topbar,
 #container,
@@ -46,12 +50,6 @@ a {
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 900px){
-    #container{
-       flex-direction: column;
-    }
-}
-
 #header #logo {
     display: block;
     float: left;
@@ -59,10 +57,6 @@ a {
     overflow: hidden;
 }
 
-#header h1 a {
-    color: #cccc00;
-    background-color: #000000;
-}
 
 .logo-image {
     width: 60px;
@@ -70,31 +64,27 @@ a {
     margin: 0 0 10px 10px;
 }
 
-#tips {
+#breadcrumb {
     padding: 20px 0;
 }
 
-#tips ul {
+#breadcrumb ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-#tips ul li {
+#breadcrumb ul li {
     display: inline;
 }
 
-#tips ul li.current a {
+#breadcrumb ul li.current a {
     text-decoration: underline;
 }
 
 /* --------------------------------------------wrapper------------------------------------------------------- */
 
-.wrapper h1,
-.wrapper h2,
-.wrapper h3,
-.wrapper h4,
-.wrapper h5 {
+.wrapper h2{
     margin: 0;
     padding: 0;
     font-size: 20px;
@@ -190,7 +180,7 @@ a {
 
 }
 
-#footer .box1 .imgl {
+#footer .box1 .img {
     border: 1px solid #CCCCCC;
     padding: 5px;
     color: #FFFFFF;
@@ -199,7 +189,7 @@ a {
 }
 
 .fl_left,
-.imgl {
+.img {
     float: left;
     margin: 0 8px 8px 0;
     clear: left;
@@ -209,17 +199,17 @@ a {
     margin: 0 0 8px 0;
 }
 
-#footer .flickrbox,
-#footer .flickrbox .wrap {
+#footer .social,
+#footer .social .wrap {
     display: block;
     width: 260px;
 }
 
-#footer .flickrbox .wrap .fix {
+#footer .social .wrap .fix {
     clear: both;
 }
 
-#footer .flickrbox .wrap .flickr_badge_image {
+#footer .social .wrap .social_icon {
     display: block;
     float: left;
     margin: 0 10px 10px 0;
@@ -227,8 +217,8 @@ a {
     height: 80px;
 }
 
-#footer .flickrbox .wrap #flickr_badge_image3,
-#footer .flickrbox .wrap #flickr_badge_image6 {
+#footer .social .wrap #social_icon3,
+#footer .social .wrap #social_icon6 {
     margin-right: 0;
 }
 
@@ -250,3 +240,16 @@ a {
     margin: 0;
     padding: 0;
 }
+
+@media only screen and(max-width: 1200px) {
+    h2 {
+      font-size: 4em;
+    }
+  
+   
+  }
+  @media only screen and(max-width: 690px) {
+    h2 {
+      font-size: 2em;
+    }
+  }
