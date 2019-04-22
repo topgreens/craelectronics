@@ -17,8 +17,9 @@
 
 <body id="top">
   <!-- ####################################..HEADER AND NAVBAR...################################################## -->
-  <div class="wrapper col1">
+  <div class="wrapper nav">
     <div id="header">
+      <br class="clear" />
       <div id="logo">
         <img class="logo-image" src="../images/demo/logo.png" alt="CRAelectronics">
         <p>The Things You Love!</p>
@@ -34,10 +35,8 @@
       <br class="clear" />
     </div>
   </div>
-
-  <br class="clear" />
-  <div class="wrapper col2">
-    <div id="tips">
+  <div class="wrapper tips">
+    <div id="breadcrumb">
       <ul>
         <li class="first">You Are Here</li>
         <li>&#187;</li>
@@ -50,137 +49,88 @@
         <li class="current"><a href="#">gadget</a></li>
       </ul>
     </div>
-
   </div>
   <!-- #######################...END OF HEADER AND NAVBAR...##################################################### -->
   <div id="top_image"><img class="first_image" src="../images/pro_img/top.jpg" alt=""></div>
 
+  <div class="hidden">
+    <div id="product_template" class="card card_wrapper">
+      <h2 class="product-title" style="text-align:center"></h2>
+      <div class="product-img product-1"></div>
+      <h3 class="title"></h3>
+      <p class="price">
+        €<span class="main_price"></span>
+      </p>
+      <p class="description"></p>
+      <button class="button">
+        <p class="add-text"> Add to Cart</p>
+        <p class="added-text hidden">One Added</p>
+      </button>
+    </div>
+  </div>
 
   <section class="mainproduct">
-    <div class="product_row">
-      <div class="card card_wrapper">
-        <h2 style="text-align:center">HP Laptop</h2>
-        <div class="product-img product-1"></div>
-        <h3>HP Laptop </h3>
-        <p class="price">
-          $<span class="main_price">299</span>.99
-        </p>
-        <p class="product_details">  lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum. </p>
-        <p><button>Add to Cart</button></p>
-      </div>
-      <div class="card card_wrapper">
-        <h2 style="text-align:center">Smart Watch</h2>
-        <div class="product-img product-2"></div>
-        <h3>Smart Watch</h3>
-        <p class="price">$<span class="main_price">170</span>.99</p>
-        <p class="product_details">The Apple Watch and Wear OS (formerly Android Wear) models prompted more consumers to appreciate the
-          usefulness </p>
-        <p><button>Add to Cart</button></p>
-      </div>
-      <div class="card card_wrapper">
-        <h2 style="text-align:center">Iphone X </h2>
-        <div class="product-img product-3"></div>
-        <h3>Iphone X</h3>
-        <p class="price">$<span class="main_price">1699</span>.99</p>
-        <p class="product_details">ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.
-        </p>
-        <p><button>Add to Cart</button></p>
-      </div>
+    <div id="products" class="product_row">
     </div>
-    <div class="product_row">
-      <div class="card card_wrapper">
-        <h2 style="text-align:center">Beats headset</h2>
-        <div class="product-img product-4 "></div>
-        <h3>Beats Headset</h3>
-        <p class="price">$<span class="main_price">199</span>.99</p>
-        <p class="product_details">lorem ipsum lorem Lorem jeamsun denim lorem jeansum.
-        </p>
 
-        <button>Add to Cart</button>
-
-      </div>
-      <div class="card card_wrapper">
-        <h2 style="text-align:center">Washing Machine</h2>
-        <div class="product-img product-5"></div>
-        <h3>Washing Machine</h3>
-        <p class="price">$<span class="main_price">899</span>.99</p>
-        <p class="product_details">ipsum lorem ansum. Lorem jeamsun denim lorem jeansum.
-        </p>
-        <p><button>Add to Cart</button></p>
-      </div>
-      <div class="card card_wrapper">
-        <h2 style="text-align:center">Beats pill Speakers </h2>
-        <div class="product-img product-6"></div>
-        <h3>Beats pill Speakers</h3>
-        <p class="price">$<span class="main_price">279</span>.99</p>
-        <p class="product_details">lorem ipsum lorem jum. Lorem jeamsun denim lorem jeansum.
-        </p>
-        <p><button>Add to Cart</button></p>
-      </div>
-    </div>
   </section>
 
+  <!-- ###############################...FOOTER BEGINS........###################################### -->
+  <div class="wrapper footers">
+    <div id="footer">
+      <div class="box1">
+        <h2>Company Information !</h2>
+        <img class="img" src="../images/demo/comp-info.jpg" alt="" />
+        <p>Founded in 2019, CRA-Electronics. set out itself to be a leading Electronic company in the property,
+          corporate, industrial, commercial, and home-decor industries.</p>
+        <p>The company is a member of the Electronic Industry Association (EIA).</p>
+      </div>
+      <div class="box contactdetails">
+        <h2>Our Contact Details !</h2>
+        <ul>
+          <li>CRAelectronics</li>
+          <li>Street Name &amp; Number</li>
+          <li>City: xxxxxx</li>
+          <li>Postcode/Zip: xxxxx</li>
+          <li>Tel: xxxxx xxxxxxxxxx</li>
+          <li>Email: info@domain.com</li>
+          <li class="last">Github: <a href="">Company Profile</a></li>
+        </ul>
+      </div>
+      <div class="box social">
+        <h2>Follow Us !</h2>
+        <div class="wrap">
 
-
-
-
-
-    <!-- ###############################...FOOTER BEGINS........###################################### -->
-    <div class="wrapper col4">
-        <div id="footer">
-                <div class="box1">
-                        <h2>Company Information !</h2>
-                        <img class="imgl" src="../images/demo/comp-info.jpg" alt="" />
-                        <p>Founded in 2019, CRA-Electronics. set out itself to be a leading Electronic company in the property, corporate, industrial, commercial, and home-decor industries.</p>
-                        <p>The company is a member of the Electronic Industry Association (EIA).</p>
-                    </div>
-            <div class="box contactdetails">
-                <h2>Our Contact Details !</h2>
-                <ul>
-                    <li>CRAelectronics</li>
-                    <li>Street Name &amp; Number</li>
-                    <li>City</li>
-                    <li>Postcode/Zip</li>
-                    <li>Tel: xxxxx xxxxxxxxxx</li>
-                    <li>Email: info@domain.com</li>
-                    <li class="last">Github: <a href="#">Company Profile</a></li>
-                </ul>
-            </div>
-            <div class="box flickrbox">
-                <h2>Follow Us !</h2>
-                <div class="wrap">
-                        <div class="fix"></div>
-                        <div class="flickr_badge_image" id="flickr_badge_image1">
-                            <a href="https:instagram.com"><img src="../images/demo/insta.gif" alt="" /></a>
-                        </div>
-                        <div class="flickr_badge_image" id="flickr_badge_image2"><a href="https:facebook.com"><img
-                                    src="../images/demo/facebook.gif" alt="" /></a></div>
-                        <div class="flickr_badge_image" id="flickr_badge_image3"><a href="https:linkedin.com"><img
-                                    src="../images/demo/linkedin.gif" alt="" /></a></div>
-                        <div class="flickr_badge_image" id="flickr_badge_image4"><a href="https:googleplus.com"><img
-                                    src="../images/demo/googleplus.gif" alt="" /></a></div>
-                        <div class="flickr_badge_image" id="flickr_badge_image5"><a href="https:twitter.com"><img
-                                    src="../images/demo/twitter.gif" alt="" /></a></div>
-                        <div class="flickr_badge_image" id="flickr_badge_image6"><a href="https:github.com"><img
-                                    src="../images/demo/github.gif" alt="" /></a></div>
-                        <div class="fix"></div>
-                    </div>
-            </div>
-            <br class="clear" />
+          <div class="social_icon" id="social_icon1"><a href="#"><img src="../images/demo/insta.gif" alt="" /></a></div>
+          <div class="social_icon" id="social_icon2"><a href="#"><img src="../images/demo/facebook.gif" alt="" /></a>
+          </div>
+          <div class="social_icon" id="social_icon3"><a href="#"><img src="../images/demo/linkedin.gif" alt="" /></a>
+          </div>
+          <div class="social_icon" id="social_icon4"><a href="#"><img src="../images/demo/googleplus.gif" alt="" /></a>
+          </div>
+          <div class="social_icon" id="social_icon5"><a href="#"><img src="../images/demo/twitter.gif" alt="" /></a>
+          </div>
+          <div class="social_icon" id="social_icon6"><a href="https://github.com/topgreens/craelectronics.git"><img
+                src="../images/demo/github.gif" alt="" /></a></div>
+          <div class="fix"></div>
         </div>
       </div>
       <br class="clear" />
     </div>
   </div>
+  <br class="clear" />
+  </div>
 
   <!-- ###############################....END OF FOOTER....############################################################ -->
-  <div class="wrapper col5">
+  <div class="wrapper copy">
     <div id="copyright">
       <p class="left">Copyright &copy; 2019 - All Rights Reserved - <a href="#">CRAelectronics</a></p>
       <p class="right">by <a target="_blank" href="#" title="visit Website ">CRAelectronics</a></p>
       <br class="clear" />
     </div>
   </div>
+  </div>
+  <script src="../js/product.js"></script>
 </body>
 
 </html>

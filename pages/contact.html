@@ -11,156 +11,176 @@
     <link rel="stylesheet" href="../layout/styles/layout.css" type="text/css" />
     <link rel="stylesheet" href="../layout/styles/form.css" type="text/css" />
     <link rel="stylesheet" href="../layout/styles/navi.css" type="text/css" />
+    <link rel="stylesheet" href="../layout/styles/toastr.css" rel="stylesheet" />
+
+
 </head>
 
 <body id="top">
 
     <!-- ####################################..HEADER AND NAVBAR...################################################## -->
     <div class="main-wrapper">
-    <div class="wrapper col1">
-        <div id="header">
-            <div id="logo">
-                <img class="logo-image" src="../images/demo/logo.png" alt="CRAelectronics"> 
-                <p>The Things You Love!</p>
-            </div>
-            <div id="topnav">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="./products.html">Products</a></li>
-                    <li><a href="./team.html">Our Team</a></li>
-                    <li class="last active"><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-            <br class="clear" />
-        </div>
+        <div class="wrapper nav">
 
-    </div>
-    <br class="clear" />
-    <div class="wrapper col2">
-        <div id="tips">
-          <ul>
-            <li class="first">You Are Here</li>
-            <li>&#187;</li>
-            <li><a href="#">Home</a></li>
-            <li>&#187;</li>
-            <li><a href="#">things you love</a></li>
-            <li>&#187;</li>
-            <li><a href="#">home decor</a></li>
-            <li>&#187;</li>
-            <li class="current"><a href="#">gadget</a></li>
-          </ul>
-        </div>
-        
-      </div>
-    <!-- #######################...END OF HEADER AND NAVBAR...##################################################### -->
-
-    <div class="wrapper col3">
-            <div id="featured_content">
-                 <img class="cover-image" src="../images/demo/feature.jpg" alt="">          
-            </div>
-        <br class="clear" />   
-        <div id="container">
-
-            <h2>Leave A Comment</h2>
-            <p>If you have any questions, comments or concerns about our products please let us know</p>
-            <div id="respond">
-                <form action="#" method="post">
-                    <p>
-                        <input type="text" name="name" id="name" value="" size="22" />
-                        <label for="name"><small>Name (required)</small></label>
-                    </p><br />
-                    <p>
-                        <input type="text" name="email" id="email" value="" size="22" />
-                        <label for="email"><small>Mail (required)</small></label>
-                    </p><br />
-                    <p>
-                        <textarea name="comment" id="comment" cols="100%" rows="10"></textarea>
-                        <label for="comment" style="display:none;"><small>Comment (required)</small></label>
-                    </p>
-                   
-                
-            </div>
-
-            <label for="cra-items">CRA-Products:</label>
-            <div>
-                <input type="radio" name="electronics" id="electronics-xphone" value="xphone">
-                <label for="electronics-xphone">XPhone</label>
-
-                <input type="radio" name="electronics" id="electronics-laptop" value="laptop">
-                <label for="electronics-laptop">Laptops</label>
-
-                <input type="radio" name="electronics" id="electronics-headsets" value="items">
-                <label for="electronics-headsets">Headsets</label>
-
-                <input id="electronics-n-a" name="electronics" type="radio" value="n-a">
-                <label for="electronics-n-a">N/A</label>
-            </div>
-
-            <p>
-                <input name="submit" type="submit" id="submit" value="Submit Form" />
-                &nbsp;
-                <input name="reset" type="reset" id="reset" tabindex="5" value="Reset Form" />
-            </p>
-        </form>
-        </div><br>
-
-
-    </div>
-    <br class="clear" />
-    <!-- ###############################...FOOTER BEGINS........###################################### -->
-    <div class="wrapper col4">
-        <div id="footer">
-            <div class="box1">
-                <h2>Company Information !</h2>
-                <img class="imgl" src="../images/demo/comp-info.jpg" alt="" />
-                <p>Founded in 2019, CRA-Electronics. set out itself to be a leading Electronic company in the property, corporate, industrial, commercial, and home-decor industries.</p>
-                <p>The company is a member of the Electronic Industry Association (EIA).</p>
-            </div>
-            <div class="box contactdetails">
-                <h2>Our Contact Details !</h2>
-                <ul>
-                    <li>CRAelectronics</li>
-                    <li>Street Name &amp; Number</li>
-                    <li>City</li>
-                    <li>Postcode/Zip</li>
-                    <li>Tel: xxxxx xxxxxxxxxx</li>
-                    <li>Email: info@domain.com</li>
-                    <li class="last">Github: <a href="#">Company Profile</a></li>
-                </ul>
-            </div>
-            <div class="box flickrbox">
-                <h2>Follow Us !</h2>
-                <div class="wrap">
-                    <div class="fix"></div>
-                    <div class="flickr_badge_image" id="flickr_badge_image1">
-                        <a href="https:instagram.com"><img src="../images/demo/insta.gif" alt="" /></a>
-                    </div>
-                    <div class="flickr_badge_image" id="flickr_badge_image2"><a href="https:facebook.com"><img
-                                src="../images/demo/facebook.gif" alt="" /></a></div>
-                    <div class="flickr_badge_image" id="flickr_badge_image3"><a href="https:linkedin.com"><img
-                                src="../images/demo/linkedin.gif" alt="" /></a></div>
-                    <div class="flickr_badge_image" id="flickr_badge_image4"><a href="https:googleplus.com"><img
-                                src="../images/demo/googleplus.gif" alt="" /></a></div>
-                    <div class="flickr_badge_image" id="flickr_badge_image5"><a href="https:twitter.com"><img
-                                src="../images/demo/twitter.gif" alt="" /></a></div>
-                    <div class="flickr_badge_image" id="flickr_badge_image6"><a href="https:github.com"><img
-                                src="../images/demo/github.gif" alt="" /></a></div>
-                    <div class="fix"></div>
+            <div id="header">
+                <br class="clear" />
+                <div id="logo">
+                    <img class="logo-image" src="../images/demo/logo.png" alt="CRAelectronics">
+                    <br />
+                    <p><strong>The Things You Love!</strong></p>
                 </div>
+                <div id="topnav">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./products.html">Products</a></li>
+                        <li><a href="./team.html">Our Team</a></li>
+                        <li class="last active"><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <br class="clear" />
+            </div>
+
+        </div>
+
+        <div class="tips">
+            <div id="breadcrumb">
+                <ul>
+                    <li class="first">You Are Here</li>
+                    <li>&#187;</li>
+                    <li><a href="#">Home</a></li>
+                    <li>&#187;</li>
+                    <li><a href="#">things you love</a></li>
+                    <li>&#187;</li>
+                    <li><a href="#">home decor</a></li>
+                    <li>&#187;</li>
+                    <li class="current"><a href="#">gadget</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- #######################...END OF HEADER AND NAVBAR...##################################################### -->
+
+        <div class="comments">
+            <div id="featured_content">
+                <img class="cover-image" src="../images/demo/feature.jpg" alt="">
             </div>
             <br class="clear" />
-        </div>
-    </div>
+            <div id="container">
 
-    <!-- ###############################....END OF FOOTER....############################################################ -->
-    <div class="wrapper col5">
-        <div id="copyright">
-            <p class="left">Copyright &copy; 2019 - All Rights Reserved - <a href="#">CRAelectronics</a></p>
-            <p class="right">by <a target="_blank" href="#" title="visit Website ">CRAelectronics</a></p>
-            <br class="clear" />
+                <h1>Contact Us</h1>
+                <p><b>If you have any comments or concerns about our products please let us know:</b></p>
+
+                <form action="#" method="post">
+                    <div id="respond">
+                        <div class="form-row">
+                            <input type="text" placeholder="Name" name="name" required>
+                            <label for="name"></label>
+                        </div>
+
+                        <div class="form-row">
+                            <input type="text" placeholder="Email address" name="mail" required>
+                            <label for="email"></label>
+                        </div>
+
+                        <div class="form-row">
+                            <input type="text" placeholder="Telephone" name="telephone" required>
+                            <label for="telephone"></label>
+                        </div>
+
+                        <div class="form-row">
+                            <textarea name="feedback" id="feedback" value="Message...">Message...</textarea>
+                            <label for="feedback"></label>
+                        </div>
+                        <br />
+
+                        <label for="cra-items"><strong>Subscribe to our Newsletter:</strong></label>
+                        <div id="sub">
+                            <label>
+                                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                            </label><br />
+                            <input type="radio" name="electronics" id="electronics-xphone" value="xphone">
+                            <label for="electronics-xphone">Yes</label>
+
+                            <input type="radio" name="electronics" id="electronics-laptop" value="laptop">
+                            <label for="electronics-laptop">No</label>
+                        </div>
+                        <div class="btn">
+                            <button type="button" id="myBtn">Submit</button>
+                            <div id="myModal" class="modal">
+                                <div class="modal-content"><span class="close">&times;</span>
+                                    <p><strong>Your form has been submitted..</strong></p>
+                                </div>
+                            </div>&nbsp;
+                            <input type="reset" value="Reset Form">
+                        </div>
+                        <br class="clear" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <br class="clear" />
+        <!-- ###############################...FOOTER BEGINS........###################################### -->
+        <div class="wrapper footers">
+            <div id="info">
+                <div class="box1">
+                    <h2 style="font-size:1.5vw;">Company Information:</h2>
+                    <img class="img" src="../images/demo/comp-info.jpg" alt="" />
+                    <p style="font-size:-1vw;">Founded in 2019, CRA-Electronics. set out itself to be a leading
+                        Electronic company in the
+                        property, corporate, industrial, commercial, and home-decor industries.</p>
+                    <p style="font-size:-1vw;">The company is a member of the Electronic Industry Association (EIA).</p>
+                </div>
+                <div class="box contactdetails">
+                    <h2 style="font-size:1.5vw;">Our Contact Details:</h2>
+                    <ul>
+                        <li>CRAelectronics</li>
+                        <li>Street Name &amp; Number</li>
+                        <li>City: xxxxxx</li>
+                        <li>Postcode/Zip: xxxxx</li>
+                        <li>Tel: xxxxx xxxxxxxxxx</li>
+                        <li>Email: info@domain.com</li>
+                        <li class="last">Github: <a href="#">Company Profile</a></li>
+                    </ul>
+                </div>
+                <div class="box social">
+                    <h2 style="font-size:1.5vw;">Find Us On Social Network:</h2>
+                    <div class="wrap">
+
+                        <div class="icon" id="icon1"><a href="#"><img src="../images/demo/insta.gif"
+                                    alt="instagram" /></a>
+                        </div>
+                        <div class="icon" id="icon2"><a href="#"><img src="../images/demo/facebook.gif"
+                                    alt="facebook" /></a></div>
+                        <div class="icon" id="icon3"><a href="#"><img src="../images/demo/linkedin.gif"
+                                    alt="linkedin" /></a></div>
+                        <div class="icon" id="icon4"><a href="#"><img src="../images/demo/googleplus.gif"
+                                    alt="googleplus" /></a></div>
+                        <div class="icon" id="icon5"><a href="#"><img src="../images/demo/twitter.gif"
+                                    alt="twitter" /></a>
+                        </div>
+                        <div class="icon" id="icon6"><a href="https://github.com/topgreens/craelectronics.git"><img
+                                    src="../images/demo/github.gif" alt="github" /></a></div>
+                        <div class="fix"></div>
+                    </div>
+                </div>
+                <br class="clear" />
+            </div>
+        </div>
+
+        <!-- ###############################....END OF FOOTER....############################################################ -->
+        <div class="copy">
+            <div id="copyright">
+                <p class="left" style="font-size:1.5vw;">Copyright &copy; 2019 - All Rights Reserved - <a
+                        href="#">CRAelectronics</a></p>
+                <p class="right" style="font-size:1.5vw;">by <a target="_blank" href="#"
+                        title="visit Website ">CRAelectronics</a></p>
+                <br class="clear" />
+            </div>
         </div>
     </div>
-   </div> 
+    <script src="../layout/scripts/contact.js"></script>
+    <script src="../layout/scripts/toast.js"></script>
+
 </body>
 
 </html>
