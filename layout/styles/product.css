@@ -59,8 +59,8 @@
 .product_row{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
-
 .mainproduct{
     display: flex;
     flex-direction: column;
@@ -98,7 +98,7 @@ p.price{
     font-size: 21px;
 }
 
-.product_details{
+.description{
     text-align: center;
     min-height: 40px;
 }
@@ -106,3 +106,7 @@ p.price{
 .hidden{
     display: none;
 }
+
+
+
+
