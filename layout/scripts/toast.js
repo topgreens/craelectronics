@@ -28,3 +28,14 @@ window.onclick = function(event) {
     }
   }
   new Main().execute();
+
+  //
+
+function msg(){
+  document.querySelector('btn').onclick= delivered;
+}
+function delivered(){
+  alert('you message has been delivered')
+}
+window.onload= msg;
+//

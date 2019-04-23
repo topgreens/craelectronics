@@ -77,16 +77,28 @@ align-items: stretch;
     display: table;
     clear: both;
 }
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-  @media screen and (min-width: 900px) {
- .comments #copyright #info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-   
-   }
- h2 {
-        font-size: 4em;
-    }
+/* Mobile phones (portrait and landscape) ---------- */
+@media (max-width: 767px){
+  .container-team{
+      width: 100%;
+      padding: 5px 10px;
+      display: flex;
+      flex-direction: column;
   }
+  .call-out{
+    display: flex;
+  }
+}
+/* Tablets and iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .container-team{
+      width: 750px;
+      padding: 5px 10px;
+      display: flex;
+      flex-direction: column;
+  }
+  .call-out{
+    display: flex;
+  }  
+}
   
