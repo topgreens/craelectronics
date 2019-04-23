@@ -250,14 +250,14 @@ input[type=reset] {
     padding: 0;
 }
 
-#info .box1 {
+#info #box1 {
     display: block;
     float: left;
     width: 400px;
 
 }
 
-#info .box1 .img {
+#info #box1 .img {
     border: 1px solid #CCCCCC;
     padding: 5px;
     color: #FFFFFF;
@@ -277,16 +277,16 @@ input[type=reset] {
 }
 
 #info .social,
-#info .social .wrap {
+#info .social #wrap {
     display: block;
     width: 260px;
 }
 
-#info .social .wrap .fix {
+#info .social #wrap .fix {
     clear: both;
 }
 
-#info .social .wrap .icon {
+#info .social #wrap .icon {
     display: block;
     float: left;
     margin: 0 10px 10px 0;
@@ -294,8 +294,8 @@ input[type=reset] {
     height: 80px;
 }
 
-#info .social .wrap #icon3,
-#info .social .wrap #icon6 {
+#info .social #wrap #icon3,
+#info .social #wrap #icon6 {
     margin-right: 0;
 }
 
