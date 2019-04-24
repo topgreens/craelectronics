@@ -7,7 +7,7 @@ function Main() {
             "./images/demo/slider2.jpg",
             "./images/demo/slider3.jpg",
             "./images/demo/slider4.jpg",
-            "./images/demo/slider5.jpg"];
+            "./images/demo/slider5.png"];
 
 
         //2 load image by default
