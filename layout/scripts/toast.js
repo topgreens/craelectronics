@@ -3,7 +3,8 @@ function Main() {
         document.querySelector('#myBtn').onclick=delivered;
 
       function delivered(){
-        alert('your message has been delivered')
+        alert('your message has been delivered'); 
+        document.getElementById('contact-form').reset()
       }
       window.onload= msg;
     }
