@@ -3,7 +3,7 @@
 body {
 	
 	width: 100%;
-	background-color: #cccc00;
+	background-color: #b4b4b1;
 	
 }
 
@@ -44,7 +44,7 @@ body {
 #topnav li a:hover,
 #topnav ul li.active a {
 	color: #FFFFFF;
-	background-color: #cccc00;
+	background-color: #009CA6;
 }
 
 #topnav li:hover ul,
