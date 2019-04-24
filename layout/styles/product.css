@@ -61,11 +61,11 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-.mainproduct{
+/*.mainproduct{
     display: flex;
     flex-direction: column;
     padding: 0 40px;
-}
+}*/
 
 button {
 	background-color:#44c767;
@@ -105,4 +105,20 @@ p.price{
 
 .hidden{
     display: none;
+}
+
+.mainproduct{
+    padding: 0 40px;
+}
+
+@media (max-width: 600px){
+    product_row {
+        flex-direction:column;
+    
+    }
+
+    .card_wrapper{
+        flex-direction: column;
+        width: 100%;
+    }
 }
