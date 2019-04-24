@@ -24,15 +24,12 @@ a {
 }
 
 .main-wrapper {
-    max-width: 1300px;
     box-sizing: border-box;
-    margin: 5px 15px 15px;
+    margin: 0;
     padding: 0;
     background-color: #b4b4b1;
     font-size: 15px;
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
+    font-family: sans-serif;   
 }
 
 #header #logo {
@@ -48,8 +45,8 @@ a {
     border-radius: 189px 189px 189px 189px;
     -webkit-border-radius: 189px 189px 189px 189px;
     border: 2px outset #009CA6;
+    opacity: 1.7;   
 }
-
 
 .nav {
     color:#009CA6;
@@ -109,7 +106,7 @@ a {
 }
 
 .comments a {
-    color: #cccc00;
+    color: #009CA6;
     background-color: #FFFFFF;
 }
 
@@ -320,7 +317,7 @@ input[type=reset] {
 
 /*---------------------------------------------responsive-------------------------------------------*/
 /* Tablets and iPads (portrait and landscape) ---------- */
-@media (min-width: 768px) and (max-width: 1023px){
+/* @media (min-width: 768px) and (max-width: 1023px){
     #container {
         width: 750px;
         padding: 5px 10px;
@@ -351,5 +348,17 @@ input[type=reset] {
     #copyright p {
         display: flex;
         flex-direction: column;
+    }
+}*/
+
+.footers {
+    display: flex !important;
+    flex-direction:row
+}
+    
+@media (max-width: 600px) {
+    .footers{
+        display: flex !important;
+        flex-direction:column !important;
     }
 }

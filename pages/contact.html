@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="main/bootstrap.css" rel="stylesheet" integrity="" crossorigin="anonymous">
     <link rel="stylesheet" href="../layout/styles/layout.css" type="text/css" />
-    <link rel="stylesheet" href="../layout/styles/form.css" type="text/css" />
     <link rel="stylesheet" href="../layout/styles/navi.css" type="text/css" />
     <link rel="stylesheet" href="../layout/styles/toastr.css" rel="stylesheet" />
 </head>
@@ -41,13 +40,7 @@
          <ul>
             <li class="first">You Are Here</li>
             <li>&#187;</li>
-            <li><a href="#">Home</a></li>
-            <li>&#187;</li>
-            <li><a href="#">things you love</a></li>
-            <li>&#187;</li>
-            <li><a href="#">home decor</a></li>
-            <li>&#187;</li>
-            <li class="current"><a href="#">gadget</a></li>
+            <li class="current"><a href="#">Contact</a></li>
          </ul>
       </div>
     </div>
@@ -60,7 +53,7 @@
        <div id="container">
           <h1>Contact Us</h1>
             <p id="pdt"><b>If you have any comments or concerns about our products please let us know:</b></p>
-               <form action="#" method="post">
+               <form id="contact-form" action="#" method="post">
            <div id="respond">
                 <div class="form-row">
                     <input type="text" placeholder="Name *" name="name" required> <label for="name"></label>
@@ -75,10 +68,10 @@
                     <textarea name="feedback" id="feedback" value="Message...">Message...</textarea><label for="feedback"></label>
                 </div>
                 <br />
-                <label for="cra-items"><strong>Subscribe to our Newsletter:</strong></label>
+                <label for="cra-items"><strong>Subscribe to our mailing lists:</strong></label>
                 <div id="sub">
                 <label><input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter</label><br />
-                    <input type="radio" name="electronics" id="electronics-xphone" value="xphone"><label for="electronics-xphone">Yes</label>
+                    <input type="radio" name="electronics" id="electronics-headphone" value="headphone"><label for="electronics-headphone">Yes</label>
                     <input type="radio" name="electronics" id="electronics-laptop" value="laptop"><label for="electronics-laptop">No</label>
                 </div>
                 <div class="btn">
@@ -101,14 +94,14 @@
         <div id="info">
             <div id="box1">
                 <h2>Company Information:</h2>
-                <img class="img" src="../images/demo/comp-info.jpg" alt="" />
-                <p>Founded in 2019, CRA-Electronics. set out itself to be a leading Electronic company in the property, corporate, industrial, commercial, and home-decor industries.</p>
-                <p>The company is a member of the Electronic Industry Association (EIA).</p>
+               <p> <img class="img" src="../images/demo/comp-info.jpg" alt="" />
+                Founded in 2019, CRA-Electronics. set out itself to be a leading Electronic company in the property, corporate, industrial, commercial, and home-decor industries.
+                The company is a member of the Electronic Industry Association (EIA).</p>
             </div>
             <div class="box contactdetails">
                 <h2>Our Contact Details:</h2>
                   <ul>
-                        <li>CRAelectronics</li>
+                        <li><strong><mark>CRAelectronics</mark></strong></li>
                         <li>Street Name &amp; Number</li>
                         <li>City: xxxxxx</li>
                         <li>Postcode/Zip: xxxxx</li>
