@@ -28,7 +28,7 @@ a {
     box-sizing: border-box;
     margin: 5px 15px 15px;
     padding: 0;
-    background-color: #cccc00;
+    background-color: #b4b4b1;
     font-size: 15px;
     font-family: sans-serif;
     display: flex;
@@ -43,14 +43,16 @@ a {
 }
 
 .logo-image {
-    width: 60px;
     float: left;
-    margin: 0 0 10px 10px;
+    margin: 0 10px 10px;
+    border-radius: 189px 189px 189px 189px;
+    -webkit-border-radius: 189px 189px 189px 189px;
+    border: 2px outset #009CA6;
 }
 
 
 .nav {
-    color: rgb(171, 146, 7);
+    color:#009CA6;
     background-color: #000000;
 }
 
@@ -85,8 +87,8 @@ a {
 
 .tips,
 .tips a {
-    color: #390202;
-    background-color: #cccc00;
+    color: #01363a;
+    background-color: #b4b4b1;
 }
 
 .cover-image {
@@ -146,23 +148,23 @@ a {
 
 .form-row input[type="text"]:hover,
 #container input:hover {
-    border-color: #cccc00;
+    border-color: #0f3b3e;
 }
 
 .form-row input[type="text"]:hover,
 #container textarea:hover {
-    border-color: #cccc00;
+    border-color: #0f3b3e;
 }
 
 #container button[type="button"]:hover {
     background-color: #fff;
-    color: #cccc00;
-    border: 1px dotted #cccc00;
+    color: #009CA6;
+    border: 1px dotted #0f3b3e
 }
 
 /* Style the submit button */
 button[type=button] {
-    background-color: #cccc00;
+    background-color: #009CA6;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -173,13 +175,13 @@ button[type=button] {
 
 #container input[type="reset"]:hover {
     background-color: #fff;
-    color: #cccc00;
-    border: 1px dotted #cccc00;
+    color: #009CA6;
+    border: 1px dotted #0f3b3e;
 }
 
 /* Style the reset button */
 input[type=reset] {
-    background-color: #cccc00;
+    background-color: #009CA6;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -204,21 +206,21 @@ input[type=reset] {
 }
 
 .footers {
-    color: #cccc00;
+    color: #9aa0a7;
     background-color: #000000;
     min-height: 0;
     box-sizing: border-box;
 }
 
 .footers a {
-    color: #cccc00;
+    color: #9aa0a7;
     background-color: #000000;
 }
 
 .copy,
 .copy a {
     color: #333333;
-    background-color: #cccc00;
+    background-color: #b4b4b1;
 }
 
 #info {
@@ -248,14 +250,14 @@ input[type=reset] {
     padding: 0;
 }
 
-#info .box1 {
+#info #box1 {
     display: block;
     float: left;
     width: 400px;
 
 }
 
-#info .box1 .img {
+#info #box1 .img {
     border: 1px solid #CCCCCC;
     padding: 5px;
     color: #FFFFFF;
@@ -275,16 +277,16 @@ input[type=reset] {
 }
 
 #info .social,
-#info .social .wrap {
+#info .social #wrap {
     display: block;
     width: 260px;
 }
 
-#info .social .wrap .fix {
+#info .social #wrap .fix {
     clear: both;
 }
 
-#info .social .wrap .icon {
+#info .social #wrap .icon {
     display: block;
     float: left;
     margin: 0 10px 10px 0;
@@ -292,8 +294,8 @@ input[type=reset] {
     height: 80px;
 }
 
-#info .social .wrap #icon3,
-#info .social .wrap #icon6 {
+#info .social #wrap #icon3,
+#info .social #wrap #icon6 {
     margin-right: 0;
 }
 
@@ -317,37 +319,14 @@ input[type=reset] {
 }
 
 /*---------------------------------------------responsive-------------------------------------------*/
-
-@media only screen and(max-width: 900px) {
+/* Tablets and iPads (portrait and landscape) ---------- */
+@media (min-width: 768px) and (max-width: 1023px){
     #container {
-        padding: 2em 0;
+        width: 750px;
+        padding: 5px 10px;
         display: flex;
         flex-direction: column;
     }
-
-    h1,
-    h2 {
-        font-size: 4em;
-    }
-
-    #info {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #copyright p {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 600px) {
-    #respond {
-        padding: 2em 0;
-        display: flex;
-        flex-direction: column;
-    }
-
     .form-row textarea,
     input[type=submit] {
         margin-top: 0;
@@ -355,20 +334,22 @@ input[type=reset] {
         flex-direction: column;
         justify-content: space-between;
     }
-
     h1,
     h2 {
         font-size: 2em;
     }
-
-    #info {
+    .footers {
         display: flex;
-        flex-direction: column;
+        flex-direction: column;  
+        box-sizing: border-box;
+        padding: 5px 10px;
     }
-
+    
+    #info .box1 p{
+        display: block;
+   }
     #copyright p {
         display: flex;
         flex-direction: column;
     }
-
 }
