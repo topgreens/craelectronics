@@ -1,4 +1,158 @@
+div.wrapper {
+	display: block;
+	width: 100%;
+	margin: 0;
+	text-align: left;
+}
+div.wrapper h2,
+div.wrapper h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
 
+.col2,
+.col2 a {
+	color: #FFFFFF;
+	background-color: #619093;
+}
+#featured_slide {
+	display: block;
+	position: relative;
+	width: 860px;
+	height: 260px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	font-size: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+	background-color: #619093;
+}
+#featured_slide a {
+	color: #FFFFFF;
+	background-color: #619093;
+}
+
+#featured_slide a,
+#featured_slide ul,
+#featured_slide img {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+}
+#featured_slide h2 {
+	margin: 15px 0 10px 0;
+	padding: 0;
+	line-height: normal;
+	font-size: 36px;
+	font-weight: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+----------------------------------------
+
+#featured_content,
+#featured_content ul {
+	display: block;
+	width: 860px;
+	height: 260px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+#featured_content li {
+	display: block;
+	position: relative;
+	width: 860px;
+	height: 260px;
+	overflow: hidden;
+}
+
+
+
+#featured_content img {
+	display: block;
+	float: right;
+	width: 380px;
+	height: 250px;
+	margin: 0 10px 0 0;
+	padding: 4px;
+	border: 1px solid #FFFFFF;
+}
+#featured_content .floater {
+	display: block;
+	float: left;
+	width: 415px;
+	height: 250px;
+	margin: 0 0 0 10px;
+	padding: 0;
+	overflow: hidden;
+}
+#featured_content p {
+	margin: 0 0 20px 0;
+	padding: 0;
+	line-height: 1.2em;
+}
+#featured_content p.readmore {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	line-height: normal;
+	font-weight: bold;
+}
+#featured_content p.readmore a {
+	padding: 8px 15px 10px;
+	color: #FFFFFF;
+	background-color: #333333;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* -------------- THE FEATURED PANEL ------------------ */
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.jcarousel-container {
+	position: relative;
+}
+
+.jcarousel-clip {
+	z-index: 2;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.jcarousel-list {
+	z-index: 1;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.jcarousel-list li,
+.jcarousel-item {
+	float: left;
+	list-style: none;
+	width: 75px;
+	height: 75px;
+}
+
+
+/*
 .about{
 padding-left: 20px;
 padding-right: 20px;
@@ -11,7 +165,7 @@ padding-bottom: 20px;
 	text-align: center;
 	padding-bottom: 10px;
 }
-
+*/
 .wrapper {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -47,7 +201,7 @@ width: 100%;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
-    background: black; 
+    background: black;
     margin: auto;
 }
 

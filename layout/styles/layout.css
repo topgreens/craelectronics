@@ -350,15 +350,27 @@ input[type=reset] {
         flex-direction: column;
     }
 }*/
-
-.footers {
-    display: flex !important;
-    flex-direction:row
-}
     
 @media (max-width: 600px) {
     .footers{
         display: flex !important;
         flex-direction:column !important;
     }
+    #info{
+        display: flex !important;
+        flex-direction:column !important;
+        margin: 0;
+    }
+    .form-row textarea {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        
+}
+.form-row input[type="text"]{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
 }
