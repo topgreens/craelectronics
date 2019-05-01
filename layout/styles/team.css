@@ -19,7 +19,6 @@ align-items: stretch;
 .call-out{
     padding: 20px;
     margin-bottom: 20px;
-    box-sizing: border-box;
     flex-basis: 40%;
 }
 
