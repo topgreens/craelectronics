@@ -1,5 +1,6 @@
 
 let product = {
+   id:"one",
    title: "HP Laptop",
    price: "€299.99",
    description: "The best laptop in the market,The all new modern ultra-slim design of the HP ProBook 645 delivers efficiently powerful performance",
@@ -7,6 +8,7 @@ let product = {
 };
 
 let product2 = {
+   id:"two",
    title: "Smart Watch",
    price: "€170.99",
    description: "The Apple Watch and Wear OS (formerly Android Wear) models prompted",
@@ -14,6 +16,7 @@ let product2 = {
 };
 
 let product3 = {
+   id:"three",
    title: "Iphone X",
    price: "€1699.99",
    description: "Super Retina display in the iPhone X is the first high dynamic range (HDR) OLED display Apple incorporated into an iPhone.",
@@ -21,18 +24,21 @@ let product3 = {
 };
 
 let product4 = {
+   id:"four",
    title: "Beats Headset",
    price: "€199.99",
    description: " Up to 40 hours of battery life, Beats Solo3 Wireless is your perfect everyday headphone",
    picture: "../images/pro_img/product_4.jpeg"
 };
 let product5 = {
+   id:"five",
    title: "Washing Machine",
    price: "€899.99",
    description: "It's unique tumble care technology senses the laundry conditions and washes the clothes in a unique 360° tumble motion.",
    picture: "../images/pro_img/product_5.jpg"
 };
 let product6 = {
+   id:"six",
    title: "beats Pill Speakers",
    price: "€279.99",
    description: " The Beats Pill+ speaker has up to 12 hours of battery life to stay charged on the go. Get a quick charge in 3 hours with the Lightning cable and",
@@ -45,7 +51,7 @@ for (let i = 0; i < productObjects.length; i++) {
    let currentProduct = productObjects[i];
    let product_Template = document.getElementById("product_template");
    let newProductElement = product_Template.cloneNode(true);
-   delete newProductElement.id;
+   newProductElement.id = currentProduct.id;
    newProductElement.querySelector(".product-title").innerHTML = currentProduct.title;
    newProductElement.querySelector(".title").innerHTML = currentProduct.title;
 
