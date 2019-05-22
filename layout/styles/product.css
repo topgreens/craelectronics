@@ -112,7 +112,7 @@ p.price{
 }
 
 @media (max-width: 600px){
-    product_row {
+    .product_row {
         flex-direction:column;
     
     }
